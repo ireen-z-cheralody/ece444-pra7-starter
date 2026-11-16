@@ -13,3 +13,7 @@ def divide(a, b):
         return a / b
     except ZeroDivisionError:
         return "Cannot divide by zero"
+
+
+def broken_total():
+    return missing_total
